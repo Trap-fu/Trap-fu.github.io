@@ -1,0 +1,43 @@
+{% extends "ProyectoApp/base.html" %}
+
+{% load static %}
+
+{% block content %}
+
+   <!-- Heading -->
+   <section class="page-section clearfix">
+    <div class="container">
+      <div class="intro">
+        <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{% static 'ProyectoApp/img/principal.jpg' %}" alt="">
+        <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+          <h2 class="section-heading mb-4" >
+            <span class="section-heading-lower">Lorem Ipsum</span>
+          </h2>
+          <p class="mb-3">Quisque lacinia felis sed leo laoreet elementum. Morbi dapibus quis lacus et auctor. Pellentesque auctor dignissim ligula, a aliquet justo pulvinar nec. Etiam sed varius erat, non accumsan nibh. Sed malesuada tellus in massa eleifend, vel elementum tellus condimentum.
+          </p>
+         
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  
+    <!-- Message -->
+    <section class="page-section cta">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+            <div class="cta-inner text-center rounded">
+              <h2 class="section-heading mb-4">
+                <span class="section-heading-upper">Lorem Ipsum</span>
+                <span class="section-heading-lower">Morbi dapibus quis lacus et auctor.</span>
+              </h2>
+              <p class="mb-0">ellentesque auctor dignissim ligula, a aliquet justo pulvinar nec. Etiam sed varius erat, non accumsan nibh. Sed malesuada tellus in massa eleifend, vel elementum tellus condimentum.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+{% endblock %}
